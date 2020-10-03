@@ -372,3 +372,17 @@ main #aboutus {
     }
 }
 /* fin main about us */
+
+/* inicio Blog*/
+#blog h2 {
+    color: black;
+    font-family: var(--fuenteSecundaria);
+font-size: 2em;
+text-align: center;  
+}
+
+#blog h2 span {
+    color: var(--color-principal);
+
+
+/* fin blog */
