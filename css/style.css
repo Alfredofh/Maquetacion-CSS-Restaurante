@@ -137,7 +137,7 @@ footer {
     background-color: var(--color-secundario);
     padding: 20px 10px;
     text-align: center;
-    position: fixed;
+    position: relative;
     color: white;
     width: 100%;
     margin-top: 20px;
@@ -375,6 +375,29 @@ main #aboutus {
 
 /* inicio Blog*/
 
+#ourblogs article {
+    width: 100%;
+    margin: 0;
+    border-bottom: 0;
+    padding: 1.825em;
+    margin-bottom: 1em;
+}
+
+main #ourblogs h3 {
+    margin: 1em 0;
+    font-weight: 700;
+}   
+
+main #ourblogs h4 {
+    margin: 1em 0;
+    color: var(--color-principal);
+}
+
+@media (min-width:48em) {
+    #ourblogs .container {
+    width: 50%;
+    }
+}
 
 
 /* fin blog */
