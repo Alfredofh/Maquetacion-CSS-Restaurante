@@ -375,10 +375,12 @@ main #aboutus {
 
 /* inicio Blog*/
 
-#ourblogs article {
-    width: 100%;
-    margin: 0;
-    border-bottom: 0;
+main #ourblogs .row {
+    flex-wrap: wrap;
+   
+}
+main #ourblogs article {
+    width: 50%;
     padding: 1.825em;
     margin-bottom: 1em;
 }
@@ -393,10 +395,16 @@ main #ourblogs h4 {
     color: var(--color-principal);
 }
 
+
 @media (min-width:48em) {
-    #ourblogs .container {
-    width: 50%;
+    main #ourblogs article {
+        width:33%;
+        border-bottom: 0;
+        padding: 1.825em;
+        margin-bottom: 1em;
     }
+    
+
 }
 
 
