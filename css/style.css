@@ -232,6 +232,7 @@ main section h2{
     font-family: var(--fuenteSecundaria);
 font-size: 2em;
 text-align: center;
+margin-top: 5px;
 }
 
 main section h2 span {
@@ -393,6 +394,11 @@ main #ourblogs h3 {
 main #ourblogs h4 {
     margin: 1em 0;
     color: var(--color-principal);
+}
+
+#ourblogs .enlace:hover {
+        background-color: transparent;
+        color: var(--fuentePrincipal);
 }
 
 
