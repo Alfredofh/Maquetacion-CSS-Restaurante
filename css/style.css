@@ -425,6 +425,10 @@ main #ourblogs h4 {
 .container-fluid {
     background-color: var(--color-secundario);
 }
+.row aside {
+    width: 100%;
+}
+
 
  #menu h2 {
     color: white;
@@ -437,6 +441,7 @@ aside nav {
 }
 
 aside nav ul li {
+    
 color: white;
 padding: 1em;
 text-decoration: none;
@@ -446,7 +451,49 @@ margin: 1em 0;
     color: white;
      text-decoration: none;
      font-weight: bolder;
+    
+
    
  }
+
+ aside nav ul li:hover {
+     background-color: var(--color-principal);
+     width:100%;
+     height: 25px;
+     border-radius: 5px;
+     margin: 1em 1em;
+
+ }
+
+ aside h3 {
+     font-size: 1.5em;
+     color: white;
+     font-weight: bold;
+     text-align: left;
+     margin: 1em 0;
+ }
+
+ .underline_menu {
+    position: relative;
+    width: 8%;
+    top: 0.030em;
+    border-color: var(--color-principal);
+}
+.underline_menu hr {
+    position: relative;
+width: 100%;
+top: 0.030em;
+border-color: var(--color-principal);
+}
+
+ aside p {
+     color: white;
+     text-align: left;
+     font-weight: 400;
+     font-size: 1.250em;
+     margin: 2em 0;
+ }
+
+
 
 /* fin menu */
