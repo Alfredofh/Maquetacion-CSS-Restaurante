@@ -426,18 +426,31 @@ main #ourblogs h4 {
     background-color: var(--color-secundario);
 }
 .row aside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row #menu {
+    display: inline-flex;
     width: 100%;
 }
 
 
- #menu h2 {
+
+#menu h2 {
     color: white;
     padding-top: 10px;
 }
+main aside{
+    display: inline-block;
+    width:100%;
+    vertical-align: top;
+}
+
 
 aside nav {
     text-decoration: none;
-    
 }
 
 aside nav ul li {
@@ -445,23 +458,22 @@ aside nav ul li {
 color: white;
 padding: 1em;
 text-decoration: none;
-margin: 1em 0;
+
 }
  aside nav ul li a {
     color: white;
      text-decoration: none;
      font-weight: bolder;
-    
-
    
  }
 
  aside nav ul li:hover {
      background-color: var(--color-principal);
-     width:100%;
-     height: 25px;
+     width:50%;
+     height: 30px;
      border-radius: 5px;
-     margin: 1em 1em;
+   
+   
 
  }
 
@@ -492,8 +504,44 @@ border-color: var(--color-principal);
      font-weight: 400;
      font-size: 1.250em;
      margin: 2em 0;
+     width: 20%;
  }
 
+ .articulos h3 {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    margin: 1em 0;
+ }
 
+ .articulos h3 span {
+     color: var(--color-principal);
+ }
+
+.articulos {
+  display: inline-block;
+  width: 40%;
+}
+
+.articulos .imagen {
+    display: inline-block;
+    width: 100%;
+}
+
+ #menu article p {
+     color: white;
+     font-weight: 400;
+     font-size: 1.250em;
+ }
+
+ #menu article a {
+     padding: 10px;
+     margin-bottom: 30px;
+ }
+
+#menu article {
+    flex-direction: row;
+}
 
 /* fin menu */
